@@ -8,9 +8,17 @@ public class HelloWorldApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApplication.class, args);
-		System.out.println("Hello world");
 	}
 
+	public static String hello() {
+		return "Hello World!";
+	}
 
+	public static Integer sumTwoIntegers(Integer a, Integer b) {
+		return a + b;
+	}
 
+	public static Integer multiplicationTwoIntegers(Integer a, Integer b) {
+		return a * b;
+	}
 }
